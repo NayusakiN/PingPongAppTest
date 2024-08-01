@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ping-service:
+    build:
+      context: .
+      dockerfile: PingService/Dockerfile
+    ports:
+      - "8086:86"
+      
+    container_name: ping-service
+    depends_on:
+      - pong-service
+
+  pong-service:
+    build:
+      context: .
+      dockerfile: PongService/Dockerfile
+    ports:
+      - "8081:81"
+    container_name: pong-service

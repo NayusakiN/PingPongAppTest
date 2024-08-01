@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingService", "PingService\PingService.csproj", "{9B94E069-EE14-46C2-A17D-4CB74D819C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PongService", "PongService\PongService.csproj", "{AABA1130-73D9-4604-9474-32C95D581231}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B94E069-EE14-46C2-A17D-4CB74D819C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B94E069-EE14-46C2-A17D-4CB74D819C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B94E069-EE14-46C2-A17D-4CB74D819C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B94E069-EE14-46C2-A17D-4CB74D819C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABA1130-73D9-4604-9474-32C95D581231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABA1130-73D9-4604-9474-32C95D581231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABA1130-73D9-4604-9474-32C95D581231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABA1130-73D9-4604-9474-32C95D581231}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
